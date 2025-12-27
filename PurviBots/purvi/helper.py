@@ -24,16 +24,16 @@ HELP_ABOUT =f"""**❖ {PurviBots.mention} ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛ-�
 ➥ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴡɪᴛʜ ʙᴀsɪᴄ ʀɪɢʜᴛs.
 ➥ ᴧᴅᴅ ϻє ηᴏᴡ ʙᴧʙʏ ɪɴ ʏᴏᴜʀ ɢʀσᴜᴘs.
 ─────────────────────────
-❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ [ᴘᴜʀᴠɪ-ʙᴏᴛs](https://t.me/PURVI_BOTS)
-❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ [ᴘᴜʀᴠɪ-ᴜᴘᴅᴀᴛᴇs](https://t.me/PURVI_UPDATES)
+❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ [ᴘᴜʀᴠɪ-ʙᴏᴛs](https://t.me/iamvillain77)
+❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ [ᴘᴜʀᴠɪ-ᴜᴘᴅᴀᴛᴇs](https://t.me/odsnetwork)
 ─────────────────────────
-➤ ʙσᴛ sᴛᴧᴛυs & ϻσʀє ʙσᴛs - [ᴄʟɪᴄᴋ ʜєʀє](https://t.me/Purvibots)
-➤ ᴘᴧɪᴅ ᴘʀσϻσᴛɪση :- [ᴄσηᴛᴧᴄᴛ ʜєʀє](https://t.me/TheSigmaCoder)**
+➤ ʙσᴛ sᴛᴧᴛυs & ϻσʀє ʙσᴛs - [ᴄʟɪᴄᴋ ʜєʀє](https://t.me/iamvillain77)
+➤ ᴘᴧɪᴅ ᴘʀσϻσᴛɪση :- [ᴄσηᴛᴧᴄᴛ ʜєʀє](https://t.me/iamakki001)**
 """
 
 HELP_MAIN =f"""**❖ ᴄʜσσsє ᴄᴧᴛєɢσʀʏ ғσʀ ʏσυ ɢєᴛ ʜєʟᴩ.
 
-» ɪꜰ ᴀɴʏ ɪssᴜᴇ ᴄᴏᴍᴇs - [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](t.me/purvi_updates)**
+» ɪꜰ ᴀɴʏ ɪssᴜᴇ ᴄᴏᴍᴇs - [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](t.me/iamvillain77)**
 """
 
 
@@ -44,7 +44,7 @@ HELP_BASIC =f"""
 • /ping - ᴄʜᴇᴀᴋ ʙᴏᴛ ᴀʟɪᴠᴇ ᴏʀ ᴅᴇᴀᴅ.
 • /stats - ᴄʜᴇᴀᴋ ʙᴏᴛ sᴛᴀᴛs.
 
-**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [ᴀʟᴘʜᴀ-ʙᴀʙʏ](t.me/TheSigmaCoder)**
+**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈](t.me/iamakki001)**
 """
 
 HELP_CHAT =f"""
@@ -52,7 +52,7 @@ HELP_CHAT =f"""
 
 • /chatbot - ɪɴʟɪɴᴇ ᴄᴏɴᴛʀᴏʟs ʙᴜᴛᴛᴏɴ ғᴏʀ ᴄʜᴀᴛ.
 
-**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [ᴀʟᴘʜᴀ-ʙᴀʙʏ](t.me/TheSigmaCoder)**
+**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈](t.me/iamakki001)**
 """
 
 HELP_INFO =f"""
@@ -65,7 +65,7 @@ HELP_INFO =f"""
 
 **» ᴄσᴜɴᴛʀʏ ʟᴀɴɢ ᴄσᴅє :- [ᴄʟɪᴄᴋ ʜєʀє](https://telegra.ph/%E1%B4%84%E1%B4%8F%E1%B4%9C%C9%B4%E1%B4%9B%CA%80%CA%8F-%CA%9F%C9%AAs%E1%B4%9B-%E1%B4%A1%C9%AA%E1%B4%9B%CA%9C-%CA%9F%E1%B4%80%C9%B4%C9%A2%E1%B4%9C%E1%B4%80%C9%A2%E1%B4%87-%E1%B4%84%E1%B4%8F%E1%B4%85%E1%B4%87-08-28)**
 
-**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [ᴀʟᴘʜᴀ-ʙᴀʙʏ](t.me/TheSigmaCoder)**
+**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈](t.me/iamakki001)**
 """
 
 HELP_TAG =f"""**<u>⊚ {PurviBots.mention} ᴛᴧɢ ʜᴇʟᴘ</u>**
@@ -98,7 +98,7 @@ HELP_RANK =f"""
 
 <blockquote>**» ɪғ ᴀ υsᴇʀ’s ɴᴀᴍᴇ ɪsɴ’ᴛ ᴠɪsɪʙʟᴇ ʙᴜᴛ ᴛʜᴇʏ’ʀᴇ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ, υsᴇ /info user_id ᴛᴏ ᴠɪᴇᴡ ᴛʜᴇɪʀ ᴅᴇᴛᴀɪʟs.**</blockquote>
 
-**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [ᴀʟᴘʜᴀ-ʙᴀʙʏ](t.me/TheSigmaCoder)**
+**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈](t.me/iamakki001)**
 """
 
 HELP_WEL =f"""
@@ -106,5 +106,5 @@ HELP_WEL =f"""
 
 • /welcome - ɪɴʟɪɴᴇ ᴄᴏɴᴛʀᴏʟs ʙᴜᴛᴛᴏɴ ғᴏʀ ᴡᴇʟᴄᴏᴍᴇ.
 
-**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [ᴀʟᴘʜᴀ-ʙᴀʙʏ](t.me/TheSigmaCoder)**
+**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈](t.me/iamakki001)**
 """
