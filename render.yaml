@@ -1,0 +1,19 @@
+services:
+  - type: web
+    plan: free
+    name: bio-link
+    env: python
+    buildCommand: pip install -U -r requirements.txt
+    startCommand: cd purvi-fsub-main && python3 server.py & python3 -m PurviBots
+    envVars:
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: OWNER_ID
+        sync: false
+      - key: MONGO_URL
+        sync: false
+    autoDeploy: False

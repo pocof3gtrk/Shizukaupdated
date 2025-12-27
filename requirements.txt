@@ -1,0 +1,13 @@
+abg
+pyrofork
+pymongo
+motor
+requests
+dnspython
+tgcrypto==1.2.2
+asyncio
+python-dotenv
+flask
+flask_restful
+pillow==9.5.0
+gpytranslate
