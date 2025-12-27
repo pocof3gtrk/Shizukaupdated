@@ -42,7 +42,7 @@ async def send_startup_message():
 <b>• ᴘʏʀᴏɢʀᴀᴍ :-</b> <code>{pyrover}</code>
 <b>• ᴘʏᴛʜᴏɴ :-</b> <code>{pyver.split()[0]}</code>
 
-<b>» ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- <a href="https://t.me/purvibots">ᴘᴜʀᴠɪ-ʙᴏᴛs</a></b>
+<b>» ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- <a href="https://t.me/iamakki001">ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈</a></b>
 """
 
         buttons = InlineKeyboardMarkup(
