@@ -22,7 +22,7 @@ PNG_BTN = [
         ),
         InlineKeyboardButton(
             text="⌯ 𝛅ᴜᴘᴘᴏʀᴛ ⌯", 
-            url=f"https://t.me/Purvi_Updates"
+            url=f"https://t.me/iamvillain77"
         ),
     ],
 ]
@@ -45,6 +45,6 @@ async def ping(client, message: Message):
     minutes, seconds = divmod(remainder, 60)
     await message.reply_photo(
         photo=random.choice(IMG),
-        caption=f"**ʜєʏ ʙᴧʙʏ !!**\n**[{app.name}](t.me/{app.username}) ɪꜱ ᴧʟɪᴠє 🥀 ᴧηᴅ ᴡσʀᴋɪηɢ ꜰɪηє ᴡɪᴛʜ**\n\n**➥ ᴘσηɢ :** `{ms}` ms\n**➥ ᴜᴘᴛɪϻє :** `{hours}`ʜ:`{minutes}`ᴍ:`{seconds}`s\n\n**✦ 𝐏σᴡєʀєᴅ вʏ » [ᴘᴜʀᴠɪ ʙᴏᴛꜱ](t.me/PurviBots)**",
+        caption=f"**ʜєʏ ʙᴧʙʏ !!**\n**[{app.name}](t.me/{app.username}) ɪꜱ ᴧʟɪᴠє 🥀 ᴧηᴅ ᴡσʀᴋɪηɢ ꜰɪηє ᴡɪᴛʜ**\n\n**➥ ᴘσηɢ :** `{ms}` ms\n**➥ ᴜᴘᴛɪϻє :** `{hours}`ʜ:`{minutes}`ᴍ:`{seconds}`s\n\n**✦ 𝐏σᴡєʀєᴅ вʏ » [ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈](t.me/iamakki001)**",
         reply_markup=InlineKeyboardMarkup(PNG_BTN),
     )
