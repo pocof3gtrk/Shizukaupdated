@@ -38,7 +38,7 @@
 </h3>
 
 <p align="center">
-<a href="https://heroku.com/deploy?template=https://github.com/Im-Notcoder/Purvi-Chat">
+<a href="https://heroku.com/deploy?template=https://github.com/musichosting5911/Purvi-Chat">
   <img src="https://img.shields.io/badge/Deploy%20on%20Heroku-red?style=for-the-badge&logo=heroku" width="180" height="38"/>
 </a>
 &nbsp;&nbsp;
