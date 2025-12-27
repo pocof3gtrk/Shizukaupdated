@@ -13,7 +13,7 @@ async def stats(cli: Client, message: Message):
     buttons = InlineKeyboardMarkup(
         [[
             InlineKeyboardButton("ʌᴅᴅ ᴍє", url=f"https://t.me/{me.username}?startgroup=true"),
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/purvi_bots")
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/iamvillain77")
         ]]
     )
 
