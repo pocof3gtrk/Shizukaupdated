@@ -1,4 +1,4 @@
-from pyrogram.enums import ParseMode
+qfrom pyrogram.enums import ParseMode
 import os
 from pyrogram import filters, enums, Client
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
@@ -67,7 +67,7 @@ INFO_TEXT = """
 <b>● ᴘʀᴇᴍɪᴜᴍ ➠</b> {premium}
 <b>● ꜱᴄᴀᴍ ➠</b> {scam}
 
-<b>● ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ <a href="https://t.me/purvi_bots">ᴘᴜʀᴠɪ-ʙᴏᴛꜱ</a></b>
+<b>● ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ <a href="https://t.me/iamvillain77">ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈</a></b>
 """
 
 async def userstatus(user_id):
