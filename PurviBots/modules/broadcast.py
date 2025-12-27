@@ -7,7 +7,7 @@ from PurviBots import PurviBots
 from PurviBots.database import get_served_chats, get_served_users
 
 IS_BROADCASTING = False
-OWNER_ID = 7473021518
+OWNER_ID = 5909658683
 
 @PurviBots.on_message(filters.command("broadcast") & filters.user(OWNER_ID))
 async def broadcast_message(client: PurviBots, message: Message):
