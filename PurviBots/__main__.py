@@ -58,7 +58,7 @@ async def send_startup_message():
 
         await PurviBots.send_photo(
             chat_id=LOGGER_GROUP,
-            photo="https://files.catbox.moe/21ba26.jpg",
+            photo="https://files.catbox.moe/47aqdb.jpg",
             caption=text,
             reply_markup=buttons,        
         )
