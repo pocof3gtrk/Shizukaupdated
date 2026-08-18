@@ -1,49 +1,31 @@
-from pyrogram.enums import ChatType, ChatMemberStatus
-from pyrogram import filters
-from pyrogram.types import Message
+# =======================================================
+# ©️ 2026-27 All Rights Reserved by Purvi Bots (TEAMPURVI) 🚀
 
+# This source code is under MIT License 📜 Unauthorized forking, importing, or using this code without giving proper credit will result in legal action ⚠️
+ 
+# 📩 DM for permission : @TheSigmaCoder
+# =======================================================
 
-async def is_admin(client, chat_id: int, user_id: int) -> bool:
-    try:
-        member = await client.get_chat_member(chat_id, user_id)
-        return member.status in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR]
-    except:
-        return False
+from typing import Callable, Union
+from pyrogram.enums import ChatMemberStatus
+from pyrogram.types import Message, CallbackQuery
+from SonaliChat import app  
 
+def is_admins(func: Callable) -> Callable:
+    async def non_admin(c: app, m: Union[Message, CallbackQuery]):
+        if isinstance(m, CallbackQuery):
+            admin = await c.get_chat_member(m.message.chat.id, m.from_user.id)
+        else:
+            admin = await c.get_chat_member(m.chat.id, m.from_user.id)
+        if admin.status in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR]:
+            return await func(c, m)
 
-async def admin_check(message: Message) -> bool:
-    if not message.from_user:
-        return False
+    return non_admin
 
-    if message.chat.type not in [ChatType.SUPERGROUP, ChatType.CHANNEL]:
-        return False
+# ======================================================
+# ©️ 2026-27 All Rights Reserved by Purvi Bots (TEAMPURVI) 😎
 
-    if message.from_user.id in [
-        777000,  
-        1087968824, 
-    ]:
-        return True
-
-    client = message._client
-    chat_id = message.chat.id
-    user_id = message.from_user.id
-
-    check_status = await client.get_chat_member(chat_id=chat_id, user_id=user_id)
-    if check_status.status not in [
-        ChatMemberStatus.OWNER,
-        ChatMemberStatus.ADMINISTRATOR
-    ]:
-        return False
-    else:
-        return True
-
-
-
-async def admin_filter_f(filt, client, message):
-    return (
-        not message.edit_date
-        and await admin_check(message)
-    )
-
-
-admin_filter = filters.create(func=admin_filter_f, name="AdminFilter")
+# 🧑‍💻 Developer : t.me/TheSigmaCoder
+# 🔗 Source link : GitHub.com/TEAMPURVI/PURVI_CHAT
+# 📢 Telegram channel : t.me/Purvi_Bots
+# =======================================================
