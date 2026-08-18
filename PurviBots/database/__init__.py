@@ -1,11 +1,31 @@
-from pymongo import MongoClient
+# =======================================================
+# ©️ 2026-27 All Rights Reserved by Purvi Bots (TEAMPURVI) 🚀
+
+# This source code is under MIT License 📜 Unauthorized forking, importing, or using this code without giving proper credit will result in legal action ⚠️
+ 
+# 📩 DM for permission : @TheSigmaCoder
+# =======================================================
+
+from motor.motor_asyncio import AsyncIOMotorClient
 import config
 
-SonaOp = MongoClient(config.MONGO_URL)
-Sonali = SonaOp["Sona"]["Raja"]
+ChatBot = AsyncIOMotorClient(config.MONGO_URL)
+db = ChatBot["ChatBot"]  
+usersdb = db["users"]    
+chatsdb = db["chats"]    
 
-from .chats_db import *
-from .users_db import *
+chatbot_settings_db = db["chatbot_settings"]
+
+from .chats import *
 from .admin import *
+from .fsub import *
 from .sonali import *
-from .chat_toggle import *
+from .chatbot import *
+
+# ======================================================
+# ©️ 2026-27 All Rights Reserved by Purvi Bots (TEAMPURVI) 😎
+
+# 🧑‍💻 Developer : t.me/TheSigmaCoder
+# 🔗 Source link : GitHub.com/TEAMPURVI/PURVI_CHAT
+# 📢 Telegram channel : t.me/Purvi_Bots
+# =======================================================
